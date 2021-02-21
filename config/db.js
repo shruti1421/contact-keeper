@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const production = require('production');
+const production = require('./production.json');
 const db = production.mongoURI;
 
 const connectDB = async () => {
